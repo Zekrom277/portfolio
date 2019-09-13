@@ -1,0 +1,9 @@
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: rgba(120, 226, 245, 0.5)
+}
+
