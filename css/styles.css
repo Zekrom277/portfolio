@@ -1,9 +1,82 @@
 body{
     margin: 0 auto;
     overflow-x: hidden;
+    background-image: url(/img/anastase-maragos-wZj5WdRT6Y0-unsplash.jpg)
 }
 
 .navbar{
-    background-color: rgba(120, 226, 245, 0.5)
+    height: 8em;
+    background-color: #017AEB;
+    margin: 0px;
+}
+
+.navbar a{
+    color: lightcyan;
+}
+
+.navbar .active{
+    background-color: blue;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: rgb(3, 209, 209);
+}
+
+.img-thumbnail{
+    height:6em;
+    width:6em;
+    border: none;
+    position: relative;
+    bottom: 14px;
+}
+
+.jumbotron{
+    background-image: url(/img/reddragon.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(171, 186, 253);
+    height: 33em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.jumbo-text{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.jumbotron h1{
+    color: white;
+}
+
+.box{
+    background-color: rgba(0,0,0,0.5);
+    padding: 1em;
+    position: relative;
+    top: 5em;
+}
+
+.homepage-transitions{
+    height: 20em;
+    width: 12em;
+    background-color: rgb(83, 172, 255,0.8);
+    transition: width 2s;
+    text-align: center;
+}
+
+.homepage-transitions:hover{
+    width: 100%;
+}
+
+.homepage-text{
+    position: relative;
+    top: 3em;
+    color: black;
+    padding-left: 10px;
+}
+
+.homepage-text a:hover, a:link{
+    color: black;
 }
 
