@@ -10,6 +10,12 @@ body{
     margin: 0px;
 }
 
+.navbar-nav{
+    position: relative;
+    top: 2em;
+}
+
+
 .navbar a{
     color: lightcyan;
 }
@@ -78,5 +84,109 @@ body{
 
 .homepage-text a:hover, a:link{
     color: black;
+}
+
+.img-me{
+    position: relative;
+    top: 4em;
+    left: 4em;
+}
+
+.img-me img{
+    border: cyan solid 3px;
+}
+
+.content-text-me{
+    height: 30em;
+}
+
+.about-me-text{
+    position: relative;
+    left: 24em;
+    top: 1em;
+    background-color: white;
+    border: solid 1px cyan;
+}
+
+.about-me-text p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+
+
+.whitespace-projects{
+    height: 10em;
+}
+
+
+.project-transitions{
+    height: 5em;
+    width: 50em;
+    background-color: rgb(83, 172, 255,0.8);
+    transition: width 1s;
+    text-align: center;
+    position: relative;
+    left: 27em;
+}
+
+
+
+.project-transitions:hover{
+    width: 60em;
+    background-color: rgb(77, 77, 255);
+}
+
+
+
+.contact-sheet h1{
+    font-family: 'Merriwinkle', sans-serif;
+    font-weight: 800;
+    color: whitesmoke;
+}
+
+.contact-sheet p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+
+.whitespace{
+    height: 20em;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+label{
+    margin-bottom: 1em;
+}
+
+
+.footer{
+    background-color: #017AEB;
+}
+
+
+.footer-contact{
+    margin-left: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.fab{
+    font-size: 2em;
+    position: relative;
+    left: 4em;
+    margin-right: 2em;
+    color: antiquewhite;
 }
 
